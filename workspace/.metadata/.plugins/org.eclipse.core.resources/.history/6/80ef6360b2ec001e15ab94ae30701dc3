@@ -1,0 +1,5 @@
+package com.codingbox.core3.request;
+
+public class RequestBodyJsonController {
+
+}

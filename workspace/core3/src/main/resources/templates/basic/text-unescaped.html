@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>text vs utext</h1>
+	<ul>
+		<li>th:text = <span th:text="${data}"></span></li>
+		<li>th:utext = <span th:utext="${data}"></span></li>
+	</ul>
+	<ul>
+		<li><span th:inline="none">[[...]]</span> = <span>[[${data}]]</span></li>
+		<li>[(...)] = <span>[(${data})]</span></li>
+	</ul>
+</body>
+</html>

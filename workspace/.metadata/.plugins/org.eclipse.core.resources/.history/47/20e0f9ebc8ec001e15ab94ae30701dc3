@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<ul>
+	<li>th:text 사용 <span th:text="${data}"></span></li>
+	<li>컨텐츠 안에서 직접 출력하기 =[[$data]] <span th:text="${data}"></span></li>
+</ul>
+</body>
+</html>

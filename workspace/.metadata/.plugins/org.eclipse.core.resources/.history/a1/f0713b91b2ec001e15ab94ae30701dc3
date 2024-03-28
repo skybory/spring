@@ -1,0 +1,16 @@
+package com.codingbox.core3.request;
+
+import org.springframework.stereotype.Controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Controller
+public class RequestBodyJsonController {
+
+	private ObjectMapper objectMapper = new ObjectMapper();
+
+	public void requestBodyJsonV1() {
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+.gradle/
+build/
+bin/
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+!target/
+!src/main/resources/application.properties
+
+# Lombok
+*.iml
+*.ipr
+*.iws
+*.bak
+*.out

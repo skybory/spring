@@ -1,0 +1,62 @@
+package com.codingbox.core2.repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.stereotype.Repository;
+
+import com.codingbox.core2.dto.Member;
+
+@Repository
+public class JdbcMemberRepository implements MemberRepository {
+
+	private final DataSource dataSource;
+
+	public JdbcMemberRepository(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
+	@Override
+	public Member save(Member member) {
+		String sql = "INSERT INTO MEMBER VALUES (member_seq.nextval, ?)";
+
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+
+		try {
+
+			conn = dataSource.getConnection();
+			String param[] = {"ID"};
+			pstmt = conn.prepareStatement(sql, param);
+			pstmt.setString(1, member.getName());
+			pstmt.executeUpdate();
+			rs = pstmt.getGeneratedKeys();
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				rs.close();
+				pstmt.close();
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+		return member;
+	}
+
+	@Override
+	public List<Member> findAll() {
+		return null;
+	}
+
+}

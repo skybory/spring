@@ -1,0 +1,22 @@
+package com.codingbox.core2.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.codingbox.core2.service.MemberService;
+
+@Controller
+public class MemberController {
+
+	MemberService mService = new MemberService();
+	
+}
+
+
+
+
+
+
+
+
+
+

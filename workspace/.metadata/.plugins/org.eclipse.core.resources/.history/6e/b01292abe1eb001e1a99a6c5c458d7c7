@@ -1,0 +1,5 @@
+package com.codingbox.core2.controller;
+
+public class HomeController {
+
+}

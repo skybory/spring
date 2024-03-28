@@ -1,0 +1,34 @@
+package com.codingbox.core2.repository;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.stereotype.Repository;
+
+import com.codingbox.core2.dto.Member;
+
+@Repository
+public class JdbcMemberRepository implements MemberRepository {
+
+	private final DataSource dataSource;
+	public JdbcMemberRepository(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+	
+	
+	
+	@Override
+	public Member save(Member member) {
+		String sql = "INSERT INTO MEMBER VALUES (member_seq.nextval, ?)";
+		
+		return null;
+	}
+
+	
+	@Override
+	public List<Member> findAll() {
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.codingbox.core.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class MemberController {
+
+	
+	public String getMember(Model model) {
+		
+	}
+}

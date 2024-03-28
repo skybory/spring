@@ -1,0 +1,23 @@
+package com.codingbox.core2.service;
+
+import java.util.List;
+
+import com.codingbox.core2.member.Member;
+import com.codingbox.core2.repository.MemberRepository;
+
+public class MemberService {
+	MemberRepository memberRepository = new MemberRepository() {
+		
+		@Override
+		public Member save(Member member) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+		@Override
+		public List<Member> findAll() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	};
+}

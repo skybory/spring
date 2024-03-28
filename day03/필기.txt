@@ -1,0 +1,5 @@
+1. HTTP 요청 파라미터
+
+2. lombok
+implementation 'org.projectlombok:lombok'
+--> 잘 고장남

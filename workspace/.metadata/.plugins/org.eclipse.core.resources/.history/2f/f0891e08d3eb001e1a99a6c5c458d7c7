@@ -1,0 +1,19 @@
+package com.codingbox.core2.repository;
+
+import java.util.List;
+
+import com.codingbox.core2.member.Member;
+
+public class MemoryMemberRepository implements MemberRepository{
+
+	@Override
+	public Member save(Member member) {
+		return null;
+	}
+
+	@Override
+	public List<Member> findAll() {
+		return null;
+	}
+
+}

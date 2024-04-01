@@ -1,8 +1,0 @@
-package com.codingbox.core3.web.basic;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class BasicController {
-
-}

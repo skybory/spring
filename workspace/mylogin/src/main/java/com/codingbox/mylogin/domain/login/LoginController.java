@@ -99,7 +99,7 @@ public class LoginController {
 		session.setAttribute(SessionConst.LOGIN_MEMBER, loginMember);
 		System.out.println("redirectURL================== " + redirectURL);
 		
-		return "redirect:"+redirectURL;
+		return "redirect:" + redirectURL;
 	}
 	
 	

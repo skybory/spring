@@ -1,0 +1,214 @@
+1. 영속성 컨텍스트의 이점
+  - 1차캐시
+  - 동일성(identity) 보장
+  - 트랜잭션을 지원하는 쓰기 지연
+(Transactional write-behind)
+  - 변경 감지 (Dirty Checking)
+  - 지연로딩 (Lazy Loading)
+
+ 1-1. 1차캐시
+  - 영속성 컨텍스트와 식별자 값
+	-> 엔티티를 식별자 값(@id로 테이블의 기본키와 매핑한 값)으로 구분
+	-> 영속 상태는 식별자 값이 반드시 있어야 한다
+	-> 식별자 값이 없으면 예외 발생
+  - 영속성 컨텍스트와 데이터베이스 저장
+	-> JPA는 보통 트랜잭션을 커밋하는 순간 영속성 컨텍스트에 새로 저장된 엔티티를 데이터베이스에 반영
+	-> 플러시(flush) (=db에저장) 메서드가 커밋 안에 있음
+
+ 1-2. 1차 캐시에서 조회
+  Member member = new Member();
+  member.setId("member1");
+  member.setUsrName("회원1");
+
+  em.persist(member);	// 1차 캐시에 저장, 영속성 컨텍스트에 저장하기, 영속 상태
+  
+  Member findMember = em.find(Member.class,"member1");
+
+  1-3. 데이터베이스에서 조회
+  1차캐시에는 member1만 저장되어있는 상태.
+  // 현재 member2 라는 @id 로는 1차 캐시에 Entity가 없는 상태
+  Member findMember2 = em.find(Member.class, "member2"); 
+
+ 1-4. 트랜잭션을 지원하는 쓰기 지연
+  em.begin();	// 트랜잭션 시작
+
+  em.persist(memberA);
+  em.persist(memberB);
+  // 영속 상태
+  // 여기까지는 Insert SQL 을 데이터베이스에 보내지 않는다.
+
+  // 커밋하는 순간 Insert SQL을 보낸다.
+  em.commit();	// 트랜잭션 커밋
+
+ 1-5. 엔티티 수정 변경 감지 (Dirty Checking)
+  em.begin();	// 트랜잭션 시작
+
+  // 영속 엔티티 조회
+  Member memberA = em.find(Member.class, "memberA");
+
+  // 영속 엔티티 데이터를 수정
+  memberA.setUserName("JpaUser");
+  memberA.setAge(10);
+
+  // 예상코드
+  //  em.update(member);		: 존재X
+
+  em.commit();	// 트랜잭션 커밋
+
+  - flush()가 호출되는 시점에 Entity와 스냅샷을 전부 비교 후,
+  (최적화 알고리즘으로 비교) 변경이 된 것을 감시(Dirty Checking)한 후, update쿼리를 작성하고,
+  이 쿼리를 쓰기 지연 저장소에 저장하고, 후에 update쿼리를 날린다.
+
+
+ 1-6. 엔티티 삭제
+  // 삭제 대상 엔티티 조회
+  Member memberA = em.find(Member.class, "memberA");
+
+  // 엔티티 삭제
+  em.remove(memberA);
+
+2. 플러시
+  - 변경 감지
+  - 수정된 엔티티를 쓰기 지연 SQL 저장소에 등록
+  - 쓰기 지연 SQL 저장소의 쿼리를 데이터베이스에 전송
+  (등록, 수정, 삭제 쿼리)
+
+3. 영속성 컨텍스트를 플러시하는 방법
+  - commit : 플러시 자동 호출
+  - em.flush() : 직접 호출
+  - JPQL 쿼리 실행 : 플러시 자동 호출
+
+4. 플러시란
+  - 영속성 컨텍스트를 비우지 않음
+  - 영속성 컨텍스트의 변경내용을 데이터베이스에 동기화
+  - 트랜잭션이라는 작업 단위가 중요 -> 커밋 직전에만 동기화 하면 됨
+  - JPA는 동시성, 데이터 맞추기 등을 모두 트랜잭션에 위임을 한다.
+
+5. 준영속
+  - 1차 캐싱의 이점을 못누리는 상태
+  - 영속 -> 준영속
+  - 준영속 : 영속 상태의 엔티티가 영속성 컨텍스트에서 분리(detached)된 상태
+  - 영속성 컨텍스트가 제공하는 기능을 사용하지 못함
+
+6. 준영속 상태로 만드는 방법
+  - em.detach(entity)
+	-> 특정 엔티티만 준영속 상태로 전환
+  - em.clear()
+	-> 영속성 컨텍스트를 완전히 초기화
+  - em.close()
+	-> 영속성 컨텍스트를 종료
+
+7. 엔티티 매핑 소개
+  - 객체와 테이블 매핑 : @Entity, @Table(테이블 어노테이션을 안쓰면 객체 이름이 테이블 이름이 됨)
+  - 필드와 컬럼 매핑 : @Column (명시하지 않으면 default 길이값을 사용 : ex)varchar(255) )
+  - 기본키 매핑 : @Id (PRIMARY KEY 매핑)
+  - 연관관계 매핑 : @ManyToOne, @JoinColumn (FOREIGN KEY 매핑)
+
+8. @Entity
+  - @Entity가 붙은 클래스는 JPA가 관리, 엔티티라고 한다.
+  - JPA를 사용해서 테이블과 매핑할 클래스는 @Entity가 필수
+  - 기본 생성자가 필수
+  - final 클래스, enum, interface, inner클래스 사용 불가
+  - 저장할 필드에 final 사용 X
+
+9. @Table
+  - 엔티티와 매핑할 테이블을 지정
+
+10. 데이터베이스 스키마 자동 생성
+  - DDL을 애플리케이션 실행 시점에서 테이블 자동 생성
+  - 테이블 중심 -> 객체 중심
+  - 데이터베이스 방언을 활용해서 데이터베이스에 맞는 적절한 DDL을 생성
+  - 이렇게 생성된 DDL은 개발 장비에서만 사용
+  (운영에서는 사용해서는 안된다)
+  - 생성된 DDL은 운영 서버에서는 사용하지 않고, 적절히 다듬은 후 사용
+
+11. 데이터베이스 스키마 자동 생성 - 속성
+  - hibernate.hbm2ddl.auto 라는 옵션이 있다
+  - create
+	-> 기존 테이블 삭제 후 다시 생성(drop + create)
+    create-drop
+	-> create 와 같으나, 종료 시점에 모든 테이블을 drop함.
+    update
+	-> 변경 부분만 반영 (운영 DB에서는 사용하면 안됨)
+    validate
+	-> 엔티티와 테이블이 정상 매핑되었는지만 확인
+    none
+	-> 사용하지 않음(DDL에 관여하지 않음) 			:	돌고 돌아 이녀석밖에 안씀..!
+  - 데이터베이스 방언 별로 달라진다.
+  - 운영장비에는 절대 create, create-drop, update 사용하면 안된다.
+  - 개발 초기 단계는 create 또는 update
+  - 테스트 서버는 update 또는 validate
+  - 운영 서버는 none 또는 validate (99.99999% none)
+
+12. DDL 생성 기능
+  - 제약조건 추가 : 회원이름은 필수, 10자 초과 X
+	@Column(nullable = false, length = 10)
+  - 유니크 제약조건 추가
+	@Table(uniqueConstraints)={@UniqueConstraints(name="name_unique")
+						columnNames={"Name", "AGE"}})
+  - DDL 생성 기능은 DDL을 자동 생성할 때만 사용되고, JPA의 실행 로직에는 영향을 주지 않는다.
+
+13. 필드와 컬럼 매핑
+  - @Column	: 컬럼 매핑
+  - @Temporal	: 날짜 타입 매핑
+  - @Enumerated	: enum 타입 매핑
+  - @Lob		: BLOB, CLOB 매핑
+  - @Transient	: 특정 필드를 컬럼에 매핑하지 않음 ( 매핑무시 )
+
+14. @Lob
+  - 데이터베이스 BLOB, CLOB 타입과 매핑
+  - @Lob에는 지정할 수 있는 속성이 없다
+  - 매핑하는 필드 타입이 문자면 CLOB, 나머지는 BLOB 매핑
+
+15. @Transient
+  - 필드 매핑 X
+  - 데이터베이스 저장 X, 조회X
+  - 주로 메모리상에서만 임시로 어떤 값을 보관하고 싶을 때 사용
+
+16. 기본키 매핑
+  - @Id
+  - @GeneratedValue
+
+17. 기본 키 매핑 방법 (seq 입히기)
+  - 직접 할당 : @Id만 사용
+  - 자동 생성 : @GenereatedValue - 4가지 전략
+	-> identity		: 데이터베이스에 위임. MySQL 에서 많이 사용
+	-> sequence	: 데이터베이스 시퀀스 오브젝트 사용, ORACLE, @SequenceGenerator 사용
+	-> table		: 키 생성 테이블을 사용, 모든 DB에서 사용
+				@TableGenerator 필요
+	-> AUTO		: 방언에 따라 자동 지정, 기본값
+  - AUTO는 DB 방언에 맞춰서 IDENTITY, SEQUENCE, TABLE 3개 중 하나가 선택된다.
+
+
+18. SEQUENCE - @SequenceGenerator
+
+19. 도메인 모델 분석
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

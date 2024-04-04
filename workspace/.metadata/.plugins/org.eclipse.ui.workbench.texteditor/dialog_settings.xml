@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="RequestMapping"/>
+		<item key="selection" value="create"/>
 		<list key="findhistory">
+			<item value="create"/>
 			<item value="RequestMapping"/>
 			<item value="/members/"/>
 		</list>

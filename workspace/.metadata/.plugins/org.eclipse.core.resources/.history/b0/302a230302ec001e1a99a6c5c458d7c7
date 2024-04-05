@@ -1,8 +1,0 @@
-package com.codingbox.core2.repository;
-
-import org.springframework.stereotype.Repository;
-
-@Repository
-public class JpaMemberRepository {
-
-}

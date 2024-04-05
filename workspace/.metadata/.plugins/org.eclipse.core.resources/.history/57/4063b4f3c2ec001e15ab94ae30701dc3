@@ -1,8 +1,0 @@
-package com.codingbox.core3.web.response;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class ResponseViewController {
-
-}

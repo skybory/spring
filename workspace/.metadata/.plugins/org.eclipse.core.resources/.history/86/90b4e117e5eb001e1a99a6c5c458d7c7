@@ -1,6 +1,0 @@
-package com.codingbox.core2.dto;
-
-public class MemberFormDTO {
-
-	private String name;
-}

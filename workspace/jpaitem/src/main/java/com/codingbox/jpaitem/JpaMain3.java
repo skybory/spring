@@ -1,10 +1,9 @@
 package com.codingbox.jpaitem;
 
 
-import java.util.List;
 
-import com.codingbox.jpaitem.relation.Member;
-import com.codingbox.jpaitem.relation.Team;
+//import com.codingbox.jpaitem.relation.Member;
+//import com.codingbox.jpaitem.relation.Team;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -37,14 +36,14 @@ public class JpaMain3 {
 
 			// 수정
 			// Owner(여기서는 Member)를 가장 마지막에 작성해야함 ( 멤버가 데이터를 수정하는 권한이 있기 때문 )
-			Team team = new Team();
-			team.setName("GOODTEAM123");
-			em.persist(team);
+//			Team team = new Team();
+//			team.setName("GOODTEAM123");
+//			em.persist(team);
 			
-			Member member = new Member();
-			member.setName("gooodMember123");
-			member.changeTeam(team);
-			em.persist(member);
+//			Member member = new Member();
+//			member.setName("gooodMember123");
+//			member.changeTeam(team);
+//			em.persist(member);
 		
 			// 양방향 매핑시에는 양쪽에 값을 모두 입력해 주어야 한다.
 			// DB를 다시 다녀오지 않고, 객체 상태로만 넣어준다.
@@ -55,15 +54,15 @@ public class JpaMain3 {
 //			em.flush();
 //			em.clear();
 			
-			System.out.println("==========================================");
-			Team findTeam = em.find(Team.class, team.getId());
-			List<Member> members = findTeam.getMember();
-			
-			for(Member m : members) {
-				System.out.println("m = " + m.getName());
-			}
-			
-			System.out.println("==========================================");
+//			System.out.println("==========================================");
+//			Team findTeam = em.find(Team.class, team.getId());
+//			List<Member> members = findTeam.getMember();
+//			
+//			for(Member m : members) {
+//				System.out.println("m = " + m.getName());
+//			}
+//			
+//			System.out.println("==========================================");
 			
 			
 			

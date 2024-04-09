@@ -6,13 +6,15 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="create"/>
+		<item key="selection" value="student"/>
 		<list key="findhistory">
+			<item value="item"/>
 			<item value="create"/>
 			<item value="RequestMapping"/>
 			<item value="/members/"/>
 		</list>
 		<list key="replacehistory">
+			<item value="student"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

@@ -15,7 +15,7 @@
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.OracleDialect" />
 <!-- 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />  -->
-			<property name="hibernate.hbm2ddl.auto" value="none" />	<!-- 여기가 create 면 테이블 drop 하고 새로만듦. 싫으면 none -->
+			<property name="hibernate.hbm2ddl.auto" value="create" />	<!-- 여기가 create 면 테이블 drop 하고 새로만듦. 싫으면 none -->
 
 
 			<!-- 옵션 -->

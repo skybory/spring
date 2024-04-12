@@ -60,7 +60,7 @@ public class ItemService {
 	}
 
 		// 이렇게도 사용한다. 개발자의 의도가 담긴 업데이트
-	//	public void update(long itemId, String name, int price, int stockQuantity) {
+//		public void update(long itemId, String name, int price, int stockQuantity) {
 //		Item oldItem = itemRepository.findOne(itemId);
 //		oldItem.setName(name);
 //		oldItem.setPrice(price);

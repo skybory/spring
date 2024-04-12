@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -35,24 +36,21 @@ public class Order {
 //	@JoinColumn(name="orderItem_id")
 //	private OrderItem orderItem;
 	
-	// 비주인
-	// order Table에 있는 member 컬럼에 의해서 수정된다
-	@OneToMany(mappedBy = "order")
-	private List<OrderItem> orderItems
-		= new ArrayList<>();
 	
 	private LocalDateTime orderDate;
 	
+	// 비주인
+	// order Table에 있는 member 컬럼에 의해서 수정된다
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+	private List<OrderItem> orderItems
+	= new ArrayList<>();
+
 	// 주문 상태 (ORDER , CANCLE)
 	@Enumerated(EnumType.STRING)
 	private OrderStatus status;
+		
 	
-//	@OneToMany(mappedBy = "order_id")
-//	private List<OrderItem> orderItems
-//		= new ArrayList<>();
-	
-	
-	// 연관관계 메서드
+	//============================= 연관관계 메서드 ===============================
 	public void setMember(Member member) {
 		this.member = member;
 		member.getOrders().add(this);
@@ -62,7 +60,31 @@ public class Order {
 		orderItems.add(orderItem);
 		orderItem.setOrder(this);
 	}
+
 	
+	// ============================== 비즈니스 로직 ===============================
+	public static Order createOrder(Member member, OrderItem... orderItems) {
+
+		Order order = new Order();
+		order.setMember(member);
+		for(OrderItem orderItem : orderItems) {
+			order.addOrderItem(orderItem);
+		}
+		
+		order.setStatus(OrderStatus.ORDER);
+		order.setOrderDate(LocalDateTime.now());
+		
+		return order;
+	}
+	
+	
+	// 주문 취소
+	public void cancel() {
+		this.setStatus(OrderStatus.CANCLE);
+		for(OrderItem orderItem : orderItems) {
+			orderItem.cancel();
+		}
+	}
 	
 	
 	

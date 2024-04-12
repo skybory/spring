@@ -1,5 +1,7 @@
 package com.codingbox.shop.domain;
 
+import com.codingbox.shop.exception.NotEnoughStockException;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,5 +33,38 @@ public class Item {
 	private String name;
 	private int price;
 	private int stockQuantity;
+	
+	//============================= 비즈니스 로직 ==============================
+	// stock 감소
+	
+	public void removeStock(int count) {
+		int restStock = this.stockQuantity - count;
+		
+		// 재고 부족시 로직 처리
+		if (restStock < 0) {
+			// 사용자 정의 exception
+			throw new NotEnoughStockException("재고가 부족합니다");
+		}
+		this.stockQuantity = restStock;
+	}
+	
+	// stock 증가
+	
+	public void addStock(int count) {
+		this.stockQuantity += count;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

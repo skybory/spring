@@ -48,9 +48,11 @@ public class OrderService {
 		return orderRepository.findAll(orderSearch);
 	}
 
-
+	@Transactional
 	public void cancelOrder(Long orderId) {
 		// 영속성 컨텍스트
 		Order order = orderRepository.findOne(orderId);
+		
+		order.cancel();
 	}
 }

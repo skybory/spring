@@ -1,4 +1,4 @@
-package com.codingbox.shop.repository;
+ package com.codingbox.shop.repository;
 
 import java.util.List;
 

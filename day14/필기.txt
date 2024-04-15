@@ -1,0 +1,119 @@
+1. 프록시 특징
+  - 실제 클래스를 상속받아서 만들어진다
+  - 실제 클래스와 겉모양이 같다
+  - 사용하는 입장에서는 진짜 객체인지 프록시 객체인지 구분하지 않고 사용하면 됨
+  - 프록시는 JPA 표준 스펙이 아니다. Hibernate 구현체에서 추가한 내용이다
+  - 프록시 객체는 처음 사용할 때 한 번만 초기화된다
+  - 프록시 객체를 초기화 할 때, 프록시 객체가 실제 엔티티로 바뀌는 것은 아니다. 초기화되면 프록시 객체를 통해 실제
+  엔티티에 접근이 가능하다
+
+2. 지연 로딩, 즉시 로딩
+  - @ManyToOne , @OneToOne : default = 즉시 로딩(EAGER)
+  - @OneToMany , @ManyToMany : default = 지연 로딩(LAZY)
+
+3. join vs 지연로딩 시점
+  - 지연 로딩과 Join 사용 시점은 애플리케이션의 요구사항과 성능 최적화를 고려하여 결정해야 한다.
+  - 일반적으로는 지연로딩을 기본으로 사용하고, 성능 최적화가 필요한 부분이나 항상 함께 필요한 데이터를 가져와야 할 때는
+  적절한 Join 전략을 선택하여 사용한다.
+  - 애플리케이션의 특성과 데이터베이스 엑세스 패턴을 고려하여 적절한 로딩 전략을 적용하는 것이 중요하다.
+
+4. JPQL
+  - Java Persistence Query Language
+  - 자바 영속성 쿼리
+  - JPQL은 객체지향 쿼리 언어다. 따라서 테이블을 대상으로 쿼리를 작성하는 것이 아니라, 엔티티 객체를 대상으로 쿼리를 작성한다.
+  - JPQL은 SQL을 추상화해서 특정 데이터베이스 SQL에 의존하지 않는다.
+  - JPQL은 결국엔 SQL로 변환된다.
+
+5. JPQL 문법
+  - 대소문자를 구분
+	-> 엔티티와 속성은 대소문자를 구분(java에서도 대소문자 구분)
+	-> JPQL 키워드는 구분하지 않는다
+
+  - 엔티티 이름
+	-> 테이블명 대신 엔티티 명을 사용,
+	@Entity(name ="") 으로 설정 가능
+	-> 지정하지 않을 시 클래스 명을 기본값으로 사용
+	(기본값 추천)
+
+  - 별칭은 필수
+	-> JPQL 은 별칭 필수
+	-> AS는 생략 가능
+ Member AS m	: 가능
+ Member m 	: 가능
+ Member AS	: 불가능
+ Member		: 불가능
+
+6. 집합과 정렬
+select
+	COUNT(m),		// 회원 수
+	SUM(m.age), 	// 나이 합
+	AVG(m.age),	// 평균 나이
+	MAX(m.age),	// 최대 나이
+	MIN(m.age)	// 최소 나이
+from Member m;
+
+  - TypeQuery, Query
+  - TypeQuery : 반환 타입이 명확할 때 사용
+  - Query : 반환 타입이 명확하지 않을 때 사용
+
+  - 결과 조회 API
+	-> query.getResultList()
+	: 결과가 하나 이상일 때, 리스트 반환
+	: 결과가 없으면 빈 리스트 반환
+	: 빈 collection 이 반환되기 때문에 NullPointException에 대한 걱정은 하지 않아도 된다.
+	
+	-> query.getSingleResult()
+	: 결과가 정확히 하나(조심), 단일 객체 반환
+	: 결과가 없으면 : NoResultException
+	: 결과가 둘 이상이면 : NotUniqueResultException
+
+  - 파라미터 바인딩 - 이름 기준, 위치 기준
+	-> 이름 기준
+	select m from Member m where m.username = :username
+	query.setParameter("username", usernameParam);
+
+	-> 위치 기준 (쓰지 말것)
+	select m from Member m where m.username = ?1
+	query.setParameter(1, usernameParam);
+	
+  - 프로젝션
+	-> select 절에 조회할 대상을 지정하는 것
+	-> 프로젝션 대상 : 엔티티 ,임베디드 타입...
+
+	-> select m from Member m
+	: Member 엔티티 조회
+	-> select m.team from Member m
+	: Member 와 관련된 team을 가지고 온다
+	-> select m.address from Member m
+	: 임베디드 타입 프로젝션
+	-> select m.username, m.age from Member m
+	: 스칼라 타입 프로젝션
+
+
+  - 페이징 처리
+	: JPA는 페이징을 다음 두 API로 추상화
+	: setFirstResult(int startPosition) - 조회 시작 위치(0부터 시작)
+	: setMaxResults(int maxResults) = 조회할 데이터 수
+	몇 번째 부터 몇개 가지고 올래?
+
+  - 조인
+	-> 내부 조인
+	: select m from Member m (inner) join m.team t
+
+	-> 외부 조인
+	: select m from Member m left (outer) join m.team t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

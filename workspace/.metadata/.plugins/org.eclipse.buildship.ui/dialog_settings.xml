@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.buildship.ui.wizard.project.import">
-		<item key="project_location" value="D:\gb_kty_1218\spring\workspace\shop"/>
+		<item key="project_location" value="D:\gb_kty_1218\spring\workspace\querydsl"/>
 		<section name="ProjectImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="706"/>
 			<item key="DIALOG_Y_ORIGIN" value="187"/>

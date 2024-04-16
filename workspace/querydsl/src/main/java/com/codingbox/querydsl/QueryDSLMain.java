@@ -1,15 +1,15 @@
 package com.codingbox.querydsl;
 
 import java.util.List;
-
 import com.codingbox.querydsl.domain.Member;
+//import com.codingbox.querydsl.domain.QMember;
 import com.codingbox.querydsl.domain.Team;
-
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
-
+import static com.codingbox.querydsl.domain.QMember.*;
 public class QueryDSLMain {
 
 	public static void main(String[] args) {
@@ -17,6 +17,8 @@ public class QueryDSLMain {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction tx = em.getTransaction();
+		// queryDSL
+		JPAQueryFactory queryFactory = new JPAQueryFactory(em);
 		tx.begin();
 
 		try {  
@@ -40,15 +42,24 @@ public class QueryDSLMain {
 			// 초기화
 			em.flush();
 			em.clear();
+ 
+
+//			List<Member> fetch
+//				= queryFactory.selectFrom(member)
+////							  .from(member)		// selectFrom 을 쓰면 select (member) from (member) 를 줄여줌.
+//							  .fetch();
+//			
+//			Member findMember1
+//				= queryFactory.selectFrom(member)
+//							  .fetchOne();
 			
-			List<Member> members
-				= em.createQuery("select m from Member m", Member.class)
-					.getResultList();
+			Long totalCount = 
+					queryFactory.select(member.count())
+								.from(member)
+								.fetchOne();
 			
-			for (Member member : members) {
-				System.out.println("member : " + member);
-				System.out.println(" -> member.team : " + member.getTeam());
-			}
+			System.out.println("totalCount : " + totalCount);
+			
 			
 			tx.commit();
 		} catch (Exception e) {

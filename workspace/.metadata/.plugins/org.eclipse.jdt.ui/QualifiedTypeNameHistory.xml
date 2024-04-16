@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
-    <fullyQualifiedTypeName name="com.codingbox.shop.dto.ItemForm"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-    <fullyQualifiedTypeName name="com.codingbox.shop.service.OrderService"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="com.codingbox.shop.repository.OrderRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.service.ItemService"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.service.MemberService"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
@@ -17,7 +9,6 @@
     <fullyQualifiedTypeName name="com.codingbox.shop.repository.ItemRepository"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.Item"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.OrderItem"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
@@ -25,7 +16,6 @@
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.Order"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.dto.OrderSearch"/>
-    <fullyQualifiedTypeName name="com.querydsl.jpa.impl.JPAQueryFactory"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.QOrder"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.QMember"/>
     <fullyQualifiedTypeName name="com.querydsl.core.types.dsl.BooleanExpression"/>
@@ -33,10 +23,7 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.OrderStatus"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Embedded"/>
     <fullyQualifiedTypeName name="com.codingbox.jpql.domain.Product"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Query"/>
     <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
     <fullyQualifiedTypeName name="com.codingbox.jpql.domain.Address"/>
@@ -44,20 +31,33 @@
     <fullyQualifiedTypeName name="com.codingbox.jpql.dto.MemberDTO"/>
     <fullyQualifiedTypeName name="com.codingbox.jpql.domain.Team"/>
     <fullyQualifiedTypeName name="com.codingbox.jpql.domain.Member"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.Team"/>
+    <fullyQualifiedTypeName name="com.querydsl.jpa.impl.JPAQueryFactory"/>
+    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.QMember"/>
+    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.Member"/>
+    <fullyQualifiedTypeName name="com.querydsl.core.Tuple"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Embedded"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.Team"/>
+    <fullyQualifiedTypeName name="com.codingbox.test2.domain.Member"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.Member"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="com.codingbox.test2.domain.Address"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.codingbox.test2.domain.Order"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="com.codingbox.test2.domain.Member_notEmbedded"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.codingbox.test2.domain.Order_notEmbedded"/>
 </qualifiedTypeNameHistroy>

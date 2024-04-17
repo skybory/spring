@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.codingbox.shop.service.ItemService"/>
-    <fullyQualifiedTypeName name="com.codingbox.shop.service.MemberService"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="com.codingbox.shop.repository.MemberRepository"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.Member"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.repository.ItemRepository"/>
     <fullyQualifiedTypeName name="com.codingbox.shop.domain.Item"/>
@@ -34,9 +29,7 @@
     <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
     <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.Team"/>
     <fullyQualifiedTypeName name="com.querydsl.jpa.impl.JPAQueryFactory"/>
-    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.QMember"/>
     <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.Member"/>
-    <fullyQualifiedTypeName name="com.querydsl.core.Tuple"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Embedded"/>
@@ -48,16 +41,23 @@
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="com.codingbox.test2.domain.Member"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="com.codingbox.test2.domain.Address"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="com.codingbox.test2.domain.Order"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="com.codingbox.test2.domain.Member_notEmbedded"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.codingbox.test2.domain.Order_notEmbedded"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.QMember"/>
+    <fullyQualifiedTypeName name="com.querydsl.jpa.JPAExpressions"/>
+    <fullyQualifiedTypeName name="com.querydsl.core.types.dsl.CaseBuilder"/>
+    <fullyQualifiedTypeName name="com.querydsl.core.types.dsl.Expressions"/>
+    <fullyQualifiedTypeName name="com.querydsl.core.Tuple"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="com.querydsl.core.types.Projections"/>
+    <fullyQualifiedTypeName name="com.codingbox.querydsl.domain.MemberDTO"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
 </qualifiedTypeNameHistroy>

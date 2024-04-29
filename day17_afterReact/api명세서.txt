@@ -1,0 +1,9 @@
+/                      Main
+/about               About
+
+api
+/todo/list               get :          /api/todo/list?page=3&size=10
+/todo/                     post :       /api/todo
+/todo/read/33            get :          /api/todo/{tno}
+/todo/modify/33         put :          /api/todo/{tno}
+/todo/delete/33         delete :       /api/todo/{tno}

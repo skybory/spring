@@ -1,4 +1,4 @@
-!SESSION 2024-04-17 09:12:20.573 -----------------------------------------------
+!SESSION 2024-04-29 11:18:00.327 -----------------------------------------------
 eclipse.buildId=4.22.0.202403071427
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
@@ -7,40 +7,9 @@ Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
 This is a continuation of log file D:\gb_kty_1218\spring\workspace\.metadata\.bak_0.log
-Created Time: 2024-04-17 10:19:46.198
+Created Time: 2024-04-29 14:23:02.302
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:19:46.198
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
-	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
-	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
-	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
-	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
-	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:19:46.199
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:23:02.303
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -70,7 +39,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:21:56.505
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:23:21.417
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -101,7 +70,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:21:56.505
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:23:21.417
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -131,7 +100,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:22:29.390
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:23:30.012
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -162,7 +131,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:22:29.390
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:23:30.012
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -192,7 +161,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:22:47.771
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:24:07.873
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -223,7 +192,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:22:47.771
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:24:07.874
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -253,7 +222,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:12.755
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:24:40.294
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -284,7 +253,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:12.756
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:24:40.294
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -314,7 +283,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:14.901
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:28:55.674
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -345,7 +314,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:14.901
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:28:55.674
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -375,7 +344,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:21.199
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:29:04.461
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -406,7 +375,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:21.200
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:29:04.461
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -436,7 +405,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:27.170
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:29:53.333
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -467,7 +436,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:27.170
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:29:53.333
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -497,7 +466,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:57.925
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:05.280
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -528,7 +497,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:23:57.925
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:05.280
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -558,7 +527,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:25:20.469
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:12.632
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -589,7 +558,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:25:20.469
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:12.632
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -619,7 +588,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:25:28.275
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:15.625
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -650,7 +619,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:25:28.275
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:15.625
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -680,7 +649,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:26:23.151
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:18.441
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -711,7 +680,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:26:23.151
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:18.442
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -741,7 +710,19 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:26:30.886
+!ENTRY org.eclipse.lsp4e 2 0 2024-04-29 14:30:18.645
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:20.545
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -772,7 +753,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:26:30.887
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:20.545
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -802,7 +783,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:27:06.000
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:25.298
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -833,7 +814,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:27:06.000
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:25.299
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -863,7 +844,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:29:42.215
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:28.051
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -894,7 +875,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:29:42.215
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:28.051
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -924,7 +905,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:29:46.644
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:30.812
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -955,7 +936,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:29:46.644
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:30.813
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -985,7 +966,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:30:30.031
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:33.563
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1016,7 +997,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:30:30.031
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:30:33.563
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1046,7 +1027,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:35:02.051
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:31:04.847
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1077,7 +1058,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:35:02.052
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:31:04.847
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1107,7 +1088,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:35:17.156
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:31:19.334
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1138,7 +1119,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:35:17.156
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:31:19.334
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1168,7 +1149,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:36:08.495
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:31:36.050
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1199,7 +1180,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:36:08.495
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:31:36.051
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1229,7 +1210,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:36:11.895
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:32:06.244
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1260,7 +1241,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:36:11.895
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:32:06.244
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1290,7 +1271,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:37:17.796
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:32:14.607
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1321,7 +1302,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:37:17.796
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:32:14.607
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1351,7 +1332,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:37:40.370
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:32:22.308
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1382,7 +1363,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:37:40.371
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:32:22.308
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1412,7 +1393,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:38:08.679
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:34:28.629
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1443,7 +1424,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:38:08.680
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:34:28.629
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1473,7 +1454,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:38:53.400
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:07.305
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1504,7 +1485,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:38:53.401
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:07.305
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1534,7 +1515,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:40:08.808
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:13.201
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1565,7 +1546,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:40:08.808
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:13.201
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1595,7 +1576,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:40:57.241
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:42.788
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1626,7 +1607,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:40:57.242
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:42.788
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1656,7 +1637,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:40:57.700
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:58.355
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1687,7 +1668,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:40:57.700
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:58.356
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1717,7 +1698,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:41:55.801
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:59.427
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1748,7 +1729,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:41:55.801
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:35:59.427
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1778,7 +1759,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:41:59.710
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:36:00.247
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1809,7 +1790,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:41:59.710
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:36:00.247
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1839,7 +1820,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:42:16.462
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:37:01.359
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1870,7 +1851,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:42:16.462
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:37:01.359
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1900,7 +1881,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:42:24.677
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:38:52.463
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1931,7 +1912,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:42:24.678
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:38:52.464
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1961,7 +1942,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:42:27.880
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:38:53.788
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -1992,7 +1973,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:42:27.880
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:38:53.788
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2022,7 +2003,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:43:06.847
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:38:57.243
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2053,7 +2034,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:43:06.848
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:38:57.243
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2083,7 +2064,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:46:11.652
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:26.379
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2114,7 +2095,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:46:11.652
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:26.379
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2144,7 +2125,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:46:17.821
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:32.008
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2175,7 +2156,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:46:17.822
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:32.008
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2205,7 +2186,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:46:32.122
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:41.648
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2236,7 +2217,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:46:32.122
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:41.649
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2266,7 +2247,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:47:19.690
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:46.982
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2297,7 +2278,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:47:19.690
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:46.982
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2327,7 +2308,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:48:06.789
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:47.302
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2358,7 +2339,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:48:06.789
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:47.302
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2388,7 +2369,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:49:37.307
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:52.309
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2419,7 +2400,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:49:37.307
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:39:52.309
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2449,7 +2430,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:49:42.337
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:40:00.772
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2480,7 +2461,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:49:42.337
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:40:00.772
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2510,7 +2491,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:51:18.449
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:40:03.046
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2541,7 +2522,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:51:18.449
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:40:03.046
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2571,7 +2552,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:51:55.664
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:41:29.028
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2602,7 +2583,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:51:55.664
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:41:29.029
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2632,7 +2613,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:52:51.097
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:41:32.868
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2663,7 +2644,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:52:51.098
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:41:32.869
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2693,7 +2674,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:53:18.108
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:41:45.000
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2724,7 +2705,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:53:18.108
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:41:45.001
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2754,7 +2735,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:53:43.950
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:42:02.418
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2785,7 +2766,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:53:43.951
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:42:02.418
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2815,7 +2796,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:53:51.944
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:42:09.188
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2846,7 +2827,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:53:51.945
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:42:09.188
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2876,7 +2857,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:54:19.512
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:43:28.381
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2907,7 +2888,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:54:19.512
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:43:28.381
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2937,7 +2918,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:54:32.851
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:43:35.773
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2968,7 +2949,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:54:32.851
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:43:35.774
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -2998,7 +2979,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:55:40.911
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:43:50.101
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3029,7 +3010,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:55:40.911
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 14:43:50.101
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3059,7 +3040,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:55:56.177
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:21:58.070
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3090,7 +3071,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:55:56.177
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:21:58.070
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3120,7 +3101,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:01.975
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:21:59.378
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3151,7 +3132,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:01.975
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:21:59.378
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3181,7 +3162,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:31.779
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:22:24.043
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3212,7 +3193,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:31.779
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:22:24.044
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3242,7 +3223,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:52.749
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:22:27.738
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3273,7 +3254,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:52.750
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:22:27.738
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3303,7 +3284,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:59.431
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:22:32.821
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3334,7 +3315,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:56:59.432
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:22:32.821
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3364,7 +3345,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:05.161
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:23:11.677
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3395,7 +3376,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:05.164
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:23:11.677
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3425,7 +3406,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:10.971
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:23:27.670
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3456,7 +3437,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:10.975
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:23:27.670
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3486,7 +3467,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:25.138
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:23:57.476
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3517,7 +3498,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:25.139
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:23:57.476
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3547,7 +3528,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:30.441
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:24:11.227
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3578,7 +3559,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:58:30.442
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:24:11.227
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3608,7 +3589,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:59:33.203
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:25:46.840
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3639,7 +3620,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:59:33.204
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:25:46.840
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3669,7 +3650,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:59:37.478
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:29:39.092
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3700,7 +3681,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 10:59:37.479
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:29:39.092
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3730,7 +3711,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 11:00:20.519
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:30:42.177
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3761,7 +3742,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 11:00:20.519
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:30:42.177
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3791,7 +3772,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 11:00:57.243
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:31:18.099
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3822,7 +3803,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 11:00:57.243
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:31:18.099
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3852,7 +3833,7 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 11:01:18.535
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:31:34.021
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
@@ -3883,7 +3864,373 @@ java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.pl
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.egit.core 4 0 2024-04-17 11:01:18.536
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:31:34.022
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.ui.internal.decorators.DecoratableResourceAdapter.<init>(DecoratableResourceAdapter.java:50)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:199)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:32:04.343
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:32:04.343
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.ui.internal.decorators.DecoratableResourceAdapter.<init>(DecoratableResourceAdapter.java:50)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:199)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:32:29.819
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:32:29.819
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.ui.internal.decorators.DecoratableResourceAdapter.<init>(DecoratableResourceAdapter.java:50)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:199)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:32:54.339
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:32:54.339
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.ui.internal.decorators.DecoratableResourceAdapter.<init>(DecoratableResourceAdapter.java:50)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:199)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:33:15.767
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:33:15.768
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.ui.internal.decorators.DecoratableResourceAdapter.<init>(DecoratableResourceAdapter.java:50)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:199)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:33:49.408
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:33:49.408
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.ui.internal.decorators.DecoratableResourceAdapter.<init>(DecoratableResourceAdapter.java:50)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:199)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:33:54.381
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-29 15:33:54.381
 !MESSAGE Git team provider configuration has gone missing.
 !STACK 0
 java.nio.file.NoSuchFileException: D:\gb_kty_1218\spring\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\org.eclipse.egit.core\GitProjectData.properties

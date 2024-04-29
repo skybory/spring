@@ -1,0 +1,99 @@
+1. 타입 파라미터 정의
+  - List<T> array = new ArrayList<>();
+  - FruitBox<Integer> intBox = new FruitBox<>();
+  - FruitBox<String> stringBox = new FruitBox<>();
+  - FruitBox<Apple> appleBox = new FruitBox<>();
+
+  //제너릭 타입 전파
+  class FruitBox<T> {
+   List<T> fruits = new ArrayList<>();
+   public void add(T fruit) {
+      fruits.add(fruit);
+   }
+}
+
+2. IntStream.rangeClosed
+ for ( int i=0; i<10; i++ ) {
+ System.out.print(i);
+ }
+
+// 0,1,2,3,4,5,6,7,8,9
+
+IntStream.rangeClosed(1, 10).forEach( i -> {
+	System.out.print(i);
+});
+
+// 1,2,3,4,5,6,7,8,9,10
+
+예시 출력화면 : 
+PageResponseDTO(dtoList=
+[TodoDTO(tno=100, title=title99, writer=writer99, content=내용입력99, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=99, title=title98, writer=writer98, content=내용입력98, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=98, title=title97, writer=writer97, content=내용입력97, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=97, title=title96, writer=writer96, content=내용입력96, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=96, title=title95, writer=writer95, content=내용입력95, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=95, title=title94, writer=writer94, content=내용입력94, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=94, title=title93, writer=writer93, content=내용입력93, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=93, title=title92, writer=writer92, content=내용입력92, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=92, title=title91, writer=writer91, content=내용입력91, complete=false, dueDate=2024-04-06), 
+TodoDTO(tno=91, title=title90, writer=writer90, content=내용입력90, complete=false, dueDate=2024-04-06)], 
+
+pageNumberList=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
+pageRequestDTO=PageRequestDTO(page=1, size=10), prev=false, next=false, totalCount=100, prevPage=0, nextPage=0, totalPage=0, current=0)
+
+
+3. @RestController
+  - @Controller + @ResponseBody
+  - 당연하게도 RestController의 주 용도는 Json형태로 객체 데이터를 반환하는 것
+
+4. url 설계
+  - PathVariable vs QueryParam
+  - 기준값(pk) : /users/33
+  - 변하는 값 : QueryParam
+
+5. @RestControllerAdvice
+  - @Controller 어노테이션이 붙은 컨트롤러에서 발생하는 예외를 처리
+  - @ControllerAdvice, @RestControllerAdvice 는 전역적으로 예외를 처리할 수 있는 어노테이션이다
+
+6. Rest API란?
+  - Rest API란 Rest를 기반으로 만들어진 API이다. Rest부터 알아보자
+
+ 6-1. Rest란
+  - Representational State Transfer
+  - 자원의 이름으로 구분하여 해당 자원의 상태를 주고받는 모든 것을 의미한다.
+  - Http URI를 통해 자원을 명시하고, 
+  - HTTP Method(Post, Get, Put, Delete, Patch 등)를 통해 해당 자원(URI)에 대한 CRUD Operation을 적용하는 것
+  - API 는 애플리케이션이나 디바이스가 서로간에 연결하여 통신할 수 있는 방법을 정의하는 규칙 세트이다. Rest API는
+  REST 아키텍쳐 스타일의 디자인 원칙을 준수하는 API이다.
+  - REST API를 RESTful API 라고도 한다.
+  - Create : 데이터 생성 (POST)
+  - Read : 데이터 조회(GET)
+  - Update : 데이터 수정(PUT, PATCH)
+  - Delete : 데이터 삭제(DELETE)
+
+ 6-2. REST API 설계 예시
+  - URI는 동사보다 명사를, 대문자보다는 소문자를 사용한다.
+	:9090/Running	(X)
+	:9090/run		(O)
+
+  - 마지막에 슬래시(/)는 포함하지 않는다
+	:9090/test/		(X)
+	:9090/test		(O)
+
+  - 언더바(_) 대신 하이픈(-)을 사용한다
+	:9090/run_blog	(X)
+	:9090/run-blog	(O)
+
+  - 파일 확장자는 URI에 포함하지 않는다
+	:9090/photo.jpg	(X)
+	:9090/photo	(O)
+
+  - CRUD를 포함하지 않는다
+	:9090/delete-post/1	(X)
+	:9090/post/1		(O)
+
+
+
+
+
+
